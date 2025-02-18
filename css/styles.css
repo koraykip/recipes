@@ -1,0 +1,41 @@
+body {
+    background: #eee; 
+    font-family: 'Helvetica', 'Verdana', sans-serif;
+
+}
+
+section#recipes {
+    background-color: white;
+    padding: 2rem 2rem;
+    width: 50%; 
+    margin: 3rem auto;
+    border-radius: 0.25rem;
+}
+
+ul { margin-left: 0%; padding: 0;}
+li {
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+li a{
+    display:inline-block;
+    width: calc(100% - 2rem); height: 100%;
+    background: #eee;
+    color: #333;
+    text-decoration: none;
+    border-radius: 0.25rem; 
+    padding: 1rem;
+}
+
+li a:hover{
+    background: lightblue;
+    color: #333;
+}
+
+img+h2{ 
+    display: inline-block; 
+    vertical-align: top;
+    margin: 0 0 0 1rem;
+}
+
